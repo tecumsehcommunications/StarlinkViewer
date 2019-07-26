@@ -8,7 +8,7 @@
 <p>For obvious reasons, this has to run in a web browser.  So the app we are building essentially will be a 3d interactive animation using the javascript webGL api.  The tool chain for this kind of work is as follows: </p>
 <p></p>
   
-<img src="workflow.svg" style="margin-top:100px; width:80%;"></img>
+<img src="img/workflow.svg" style="margin-top:100px; width:80%;"></img>
 
 <p></p>
 
