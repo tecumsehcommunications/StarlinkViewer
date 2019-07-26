@@ -17,7 +17,7 @@
 
 <div style="font-size:30px; text-align:justify; padding:10px; ">For obvious reasons, this has to run in a web browser.  So the app we are building essentially will be a 3d interactive animation using the javascript webGL api.  The tool chain for this kind of work is as follows: </div>
 
-<img src="workflow-plain.svg" style="margin-top:100px; width:80%;"></img>
+<img src="workflow.svg" style="margin-top:100px; width:80%;"></img>
 
 
 <div style="font-size:30px; margin-top:50px; text-align:justify; padding:10px; ">I believe this currently is the most powerful 3d publishing tool chain on the planet, and with it we are going to make a world-class application available world-wide for free.</div>
