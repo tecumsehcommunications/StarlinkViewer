@@ -2,7 +2,7 @@
 
 <p>If you have background in 3D animation, skip ahead to the setup steps.  If not, let me explain a little.</p>
 
-<p>Blender has a back door you can enter with the python programming language.  When you do, you'll discover that all Blender data is organized into Python data structures.  So if you complete the setup described here, you will be able to load a Blender file in a Hy repl and run with it.  Let me give an example of how this is useful:<p/>
+<p>Blender has a back door you can enter with the Python programming language.  When you do, you'll discover that all Blender data is organized into Python data structures.  So if you complete the setup described here, you will be able to load a Blender file in a Hy repl and run with it.  Let me give an example of how this is useful:<p/>
   
 <p>To create the celestial coordinate system needed to accurately animate Starlink satellite orbits around the earth, I built the needed 3D geometries in Blender. Then I loaded that Blender scene into a Hy repl where I used Python's csv library to parse a star catalog and then create and plot stars in the Blender scene at their precise coordinates around the celestial globe I first created.  You can view how little code that took here.  The before and after look of the Blender scene was this:</p> 
 
@@ -20,9 +20,9 @@
 <h2>The Setup</h2>
 
 <p>We are going to follow the procedure described
-<a href="https://wiki.blender.org/wiki/Building_Blender/Linux/Ubuntu">here</a> fairly closely.  It is probably a good idea to keep that page open in another window as you work through these steps.  And be advised, this procedure can take hours, even days to finish. </p>
+<a href="https://wiki.blender.org/wiki/Building_Blender/Linux/Ubuntu">here</a> fairly closely.  It is probably a good idea to keep that page open in another window as you work through these steps.  And be advised: this procedure can take hours, even days to finish. </p>
 
-<p>Follow step one on that above-referenced page just as given.  When you get to step two (running the install_deps.sh script), just make sure that you run the script with the --with-all option<p>
+<p>Follow step one on that above-referenced page, just as given.  When you get to step two (running the install_deps.sh script), just make sure that you run the script with the --with-all option<p>
 
 <p>When the install_deps script completes, it will write a BUILD_NOTES.txt file for you in the directory you ran it from.  When you look in that file, you will see a section that starts with something like: "If you are using cmake, add this to your configuration flags..."  copy all the -D flags that follow into a seperate buffer and format the text so you can copy and paste it onto the command line--I just add a "\" to the end of each line for this. </p> 
 
@@ -30,11 +30,11 @@
 
 <p>You can follow build instruction 3) on the blender website: (3 Compile Blender with CMake) but I have had more success with just doing the following: </p>
 
-<p">1) In the top level of your working directory, the one named "blender-git" in blender's instructions, make a directory to hold your build.  I called mine linux_build.  Now cd into that directory and at the command prompt type:
+<p>1) In the top level of your working directory, the one named "blender-git" in blender's instructions, make a directory to hold your build.  I called mine linux_build.  Now cd into that directory and at the command prompt type:</p>
 
 <pre><code>cmake ../blender</code></pre> 
 
-<p>Don't press enter yet.  First copy all the cmake flags you readied previously and paste them at the end of the command. You also will want to add a -D CMAKE_INSTALL_PREFIX=<path to installation folder of your choice> flage.  Now hit enter.  </p>
+<p>Don't press enter yet.  First copy all the cmake flags you readied previously and paste them at the end of the command. You also will want to add a -D CMAKE_INSTALL_PREFIX="path to installation folder of your choice" flag.  Now hit enter.  </p>
 
 <p> 2) After cmake does its thing.  You do just as the instructions say.  You enter the directory from which you ran your cmake command and type "make" then "make install"</p>
 
