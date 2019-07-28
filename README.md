@@ -26,7 +26,7 @@
 
 <p>3) See the emacs, nodejs, and nginx directories of this project for configuration files and instructions</p>
 
-<p>4) Compile blender as a python module (see the blender folder of this project for instructions)</p>
+<p>4) Compile blender as a python module (see the <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/blender">blender</a> folder of this project for instructions)</p>
 
 <p>5) Clone this project </p>
 
