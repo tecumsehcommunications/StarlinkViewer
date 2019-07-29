@@ -22,7 +22,7 @@
 
 <p>First you should have a current and up-to-date version of Ubuntu to work with.  Right now that is v19.04.  Configure it however suits you.  I just use the Server edition of the distro and add xorg, openbox, and emacs.  It boots to a console, then let's me log in and run startx for a windows environment.  This is a very capable machine.  You can develop, build, and test both the client and server sides of the app we are working on together, even at the same time. </p>
 
-<p>After Ubuntu comes Emacs.  The distro version woks for me.  I recommend a very simple, low-drag setup for emacs that let's it be what it needs to be for the toolchain to work:  the central exchange. Please take a look at that <a href="/tree/master/emacs">here</a>.</p> 
+<p>After Ubuntu comes Emacs.  The distro version woks for me.  I recommend a very simple, low-drag setup for emacs that let's it be what it needs to be for the toolchain to work:  the central exchange. Please take a look at that <a href="tree/master/emacs">here</a>.</p> 
   
   
 <p>1) Get a current version of Ubuntu running (currently bundles Python 3.7) </p>
