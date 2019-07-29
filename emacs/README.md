@@ -1,33 +1,28 @@
-<h1>EMACS PROVIDES THE NEXUS</h1>
-<p>I use lisp syntax for coding because it helps me get my ideas out the quickest.  I don't think I am alone with that sentiment.</p>
+<h1>EMACS AT THE EXCHANGE</h1>
+<p>The lingua franca of this project is Lisp, if you haven't figured that out already. Adopting Lisp means we can switch from working on one part of the tool chain to another without having to switch syntax. That makes the parts of the project more cohesive. Emacs, built with Lisp, has been around so long it is nearly organic to Lisp itself.  Thanks to Richard Stallman and the Gnu Project./p> 
 
-<p>Lisp leads you to Emacs and Clojure and Hy, which are 1) The Ultimate Lisp programming environment, 2) a brilliant fusion of Clojure Lisp and Google's javascript development tools and libraries, and 3) The Industry's implementation of Lisp syntax for the Python language.</p>
+<p>With Emacs, we can open a window on any part of the toolchain and work there.  It is the glue.  Let me suggest a few lines for emac's init.el file to help with that.  </p>
 
-<p>I install Clojure-mode for all my lisp programming in Emacs.  And I add: </p>
+I use clojure-mode for working with lisp in Emacs, once that is installed, add: 
 
 <pre><code>(add-to-list 'auto-mode-alist '("\\.hy\\'" . clojure-mode))</code></pre>
 
-<p>to my .emacs.d/init.el file so that clojure-mode envokes on .hy (hy files) as well. </p>
+to the init.el file so Hy lisp buffers also use clojure-mode.
 
-<p>I also add the contents of the eLisp snippet in this folder.  The idea there is pretty straight forward: You "C-u M-x: shell" in Emacs and give the buffer a name you have pre-designated to emacs as a buffer you will be sending lisp commands to.  So for example, in the snippet I refer to, there is a line that says:
+<p><a href="eLisp-snippet.el">Look</a> at the eLisp-snippet file in this folder. The idea there is pretty straight forward: You "C-u M-x: shell" in Emacs and give the shell buffer you are creating a name you have pre-defined in Emacs as a buffer to which you will be sending Lisp commands.  So for example, in the snippet I refer to, there is a line that says:
 
   <pre><code>(define-key clojure-mode-map (kbd "C-w")
       (lambda () (interactive) (repl-eval-last-expression "brepl")))</pre></code>
   
-
-<p>What that means is if you do "C-u M-x: shell,"  name the buffer "brepl" and then start a browser-connected repl like the Clojure development tools provide, when you open a .cljs file into another emacs buffer, you can send clojurescript lisp commands from that buffer to an application running in your browser just by doing a "C-w" keystroke. </p>
+<p>What that means is if you do "C-u M-x: shell,"  name the buffer "brepl" and then start a browser-connected repl like the Clojure development tools provide (I provide repl startup scripts here), when you open a .cljs file into another emacs buffer, you can send clojurescript lisp commands from that buffer to a repl running in your browser just by doing a "C-w" keystroke. </p>
 
 <p>This basic ability multiplies in utility as development becomes more complex.  For example, consider the following screenshot.</p>
 
 <img src="img/devDesktop.png" style="width:80%"></img>
 
-<p>From window A, we can direct commands into any of three available repl environements (B, C, D) which could simultaneously be running a node.js server and liveReload process, linked to a running browser, or attached to a blender/python dataset.  As you learn to work with more tools on the chain, this flexibility will become very useful.</p>
+<p>From window A, we can direct commands into any of three available repl environements (B, C, D) which could simultaneously be running a node.js server and liveReload process, linked to a running browser, or attached to a blender/python dataset.  As you learn to work with more tools on the chain, this flexibility becomes very useful.</p>
 
-<p>So also add the eLips-snippet.el file in this folder to your emacs init.el file and get familiar working with hy/node/clojurescript, etc. repls as you like.</p>
+<p>So also add the eLips-snippet.el file in this folder to your emacs init.el file and visit the repl folder for recommended repl startup scripts.</p>
 
-
-<h3>Footnote:</h3>
-
-<p style="margin-left:20px;" >With particular respect and gratitude to James Gosling (creator of Emacs), Rich Hickey (Creator of Clojure), and the Hy Society.</p>
 
 
