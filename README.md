@@ -18,11 +18,11 @@
 
 <h1>Chapter 2: The Bootstrap </h1>
 
-<p>You don't have to work with the entire toolchain above to contribute.  Just understand how the chain works, see your place in it and keep track of where the project is headed so you know how to push your work along.  As you go, you'll probably find yourself working in different areas, so here I am going to install the whole chain with you and show you a little how its parts are meant to work together. 
+<p>You don't have to work with the entire toolchain above to contribute.  Just understand how the chain works, see your place in it, and keep track of where the project is headed so you know how to push your work along.  As you go, you'll probably find yourself working in different areas, so here I am going to install the whole chain with you and show you a little how its parts are meant to work together. 
 
-<p>First you should have a current and up-to-date version of Ubuntu to work with.  Right now that is v19.04.  Configure it however suits you.  I just use the Server edition of the distro and add xorg, openbox, emacs, and Firefox or Chrome.  It boots to a console, then let's me log in and run startx for a windows environment.  This is a very capable machine.  It lets you develop, build, and test all three parts of this project (client, server, and desktop) at once. You'll see how that works as we proceed.</p>
+<p>First you should have a current and up-to-date version of Ubuntu to work with.  Right now, that is v19.04.  Configure it however suits you.  I just use the Server edition of the distro and add xorg, openbox, emacs, and Firefox or Chrome.  It boots to a console, then let's me log in and run startx for a windows environment.  This is a very capable machine.  It lets you develop, build, and test all three parts of this project (client, server, and desktop) at once. You'll see how that works as we proceed.</p>
 
-<p>After Ubuntu comes Emacs.  The distro version works for me.  I recommend a very simple, low-drag setup for emacs that let's it be what it needs to be for the toolchain to work:  the central exchange. Please take a look at that <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/emacs">here</a>.</p>
+<p>After Ubuntu comes Emacs.  The distro version works for me.  I recommend a very simple, low-drag setup for emacs that let's it be what it was made to be: the nexus.  Please take a look <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/emacs">here</a> to check your emacs setup.</p>
 
 <p>Once Emacs is setup, you ready your repls.  I use one each for working on the client, server, and desktop. The HOWTO for running these repls is here <href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>.</p>
 
