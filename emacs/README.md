@@ -14,7 +14,13 @@ to the init.el file so Hy lisp buffers also use clojure-mode.
   <pre><code>(define-key clojure-mode-map (kbd "C-w")
       (lambda () (interactive) (repl-eval-last-expression "brepl")))</pre></code>
   
-<p>What that means is if you do "C-u M-x: shell,"  name the buffer "brepl" and then start a browser-connected repl like the Clojure development tools provide (I provide repl startup scripts here), when you open a .cljs file into another emacs buffer, you can send clojurescript lisp commands from that buffer to a repl running in your browser just by doing a "C-w" keystroke. </p>
+<p>What that means is if you follow the instructions for configuring Nginx found <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/nginx">here</a>.  Then follow the directions for setting up a browser repl <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls#the-client-browser-repl">here</a>.  Then you can type "C-u M-x: shell"  in Emacs, name the buffer "brepl" and in it cd to the /client directory of your clone of this project.  When you type:</p>
+<pre><code>$ dev/brepl</code></pre>
+<p>and then load a browser on the same machine and point it to http://localhost.  You should see a repl prompt appear in your brepl window.  Now, all you have to do is open a .cljs file in the client/src directory and you can start talking in real time to the client app running in the browser just by placing your cursor at the end of a lisp expression and doing a "C-w" in Emacs.  I hope that is clear.  For using Emacs to run other development repls, see here.  
+  
+  
+  
+  find yourself talking lisp to an application to the application running in the browser.  All you have to do is open or create a .cljs file in Emacs, type a lisp command in the buffer, position the cursor at the end of the command and type "C-w" in Emacs to send it to  expression, and   :and then start a browser-connected repl like the Clojure development tools provide (I provide repl startup scripts here), when you open a .cljs file into another emacs buffer, you can send clojurescript lisp commands from that buffer to a repl running in your browser just by doing a "C-w" keystroke. </p>
 
 <p>This basic ability multiplies in utility as development becomes more complex.  For example, consider the following screenshot.</p>
 
