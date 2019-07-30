@@ -1,5 +1,5 @@
 <h1>EMACS AT THE EXCHANGE</h1>
-<p>The lingua franca of this project is Lisp, if you haven't figured that out already. Adopting Lisp means we can switch from working on one part of the tool chain to another without having to switch syntax. That makes the parts of the project more cohesive. Emacs, built with Lisp, has been around so long it is nearly organic to Lisp itself.  Thanks to Richard Stallman and the Gnu Project./p> 
+<p>The lingua franca of this project is Lisp. Adopting Lisp means we can switch from working on one part of the tool chain to another without having to switch syntax. That makes the parts of the project more cohesive. Emacs, built with Lisp, has been around so long it is nearly organic to Lisp itself.  Thanks to Richard Stallman and the Gnu Project./p> 
 
 <p>With Emacs, we can open a window on any part of the toolchain and work there.  It is the glue.  Let me suggest a few lines for emac's init.el file to help with that.  </p>
 
