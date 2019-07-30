@@ -24,30 +24,17 @@
 
 <p>After Ubuntu comes Emacs.  The distro version works for me.  I recommend a very simple, low-drag setup for emacs that let's it be what it was made to be: the nexus.  Please take a look <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/emacs">here</a> to check your emacs setup.</p>
 
-<p>Once Emacs is setup, you ready your repls.  I use one each for working on the client, server, and desktop. The HOWTO for running these repls is here <href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>.</p>
+<p>Once Emacs is setup, you ready your repls.  The setup guide for that is <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>.</p>
 
 <p>Once you have repl power, you are ready to build blender from source.  This can be a challenge.  I've included some hopefully helpful directions <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/blender">here<a>.</p>
 
-<p>If you haven't already cloned this project to a local folder, you should do that now.  After you do, see the after-cloning instructions here.   Also please take the few seconds it will for you to digest the project conventions page here.  In a few seconds 
-
-  
-<p>1) Get a current version of Ubuntu running (currently bundles Python 3.7) </p>
-
-<p>2) Install Emacs, Hy, Nodejs, Nginx, and Cojure/ClojureScript</p>
-
-<p>3) See the emacs, nodejs, and nginx directories of this project for configuration files and instructions</p>
-
-<p>4) Compile blender as a python module (see the <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/blender">blender</a> folder of this project for instructions)</p>
-
-<p>5) Clone this project </p>
-
-<p>6) Start hacking you magnificent bastard. </p>
+<p>If you haven't already cloned this project to a local folder, you should do that now.  After you do, see the after-cloning instructions here.   Also please take the few seconds it will for you to digest the project conventions page here.  You should be off and running after that. 
 
 <h1>Chapter 3: Onward </h1>
 
 <p>The Starlink viewer is just a piece of a larger puzzle that needs to be assembled in order for the Starlink network to come online.  Tecumseh Communications was chartered to work on that whole puzzle and to facilitate across the spectrum of trades, disciplines, and skill-sets that will need to come together for all this to take place. </p>
 
-<p>Our work product in those areas can be accessed via the other repositories we manage on this site.  Have a look here and see if you can use or contribute something. </p>
+<p>Our work product in those areas can be accessed via the other repositories we manage on this site.  Have a look <a href="https://github.com/tecumsehcommunications?tab=repositories">here</a> to see if you can use or contribute something. </p>
 
 </body>
 </html>
