@@ -5,7 +5,7 @@ throughout this project</p>
 <p>We have two target languages which are applied to our toolchain in three parts:  Python (via Hy) which backends the Blender environment, and Javascript which is the target language of both the server (nodejs) and client (browser) parts of the chain. </p>
 
 <h2>The Hy Repl</h2>
-<p>Setting up a Hy repl on the Ubuntu server I've described is fairly painless.  By default, the server should come with both python2.7 and python3.7 installed.  The one thing I have had to watch out for is which Python (2.7 or 2.3) runs when you type "python"
+<p>Setting up a Hy repl on the Ubuntu server I've described is fairly painless.  By default, the server should come with both python2.7 and python3.7 installed.  The one thing I have had to watch out for is which Python (2.7 or 3.7) runs when you type "python"
 at the command prompt.  You want it to be python 3, not python 2.  I just put a symbolic link named "python" in my /bin directory and point to the python3 executable at /usr/bin/python3.  That seems to do the trick.</p>
 
 <p>After you know python3 is the default python for you, just type: </p> 
