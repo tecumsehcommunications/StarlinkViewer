@@ -24,9 +24,9 @@
 
 <p>After Ubuntu comes Emacs.  The distro version works for me.  I recommend a very simple, low-drag setup for emacs that let's it be what it was made to be: the nexus.  Please take a look <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/emacs">here</a> to check your emacs setup.</p>
 
-<p>Once Emacs is setup, you ready your repls.  The setup guide for that is <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>.</p>
+<p>Once Emacs is setup, you need to setup Nginx as described <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/nginx">here</a>, and the repls as described is <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>.</p>
 
-<p>Once you have repl power, you are ready to build blender from source.  This can be a challenge.  I've included some hopefully helpful directions <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/blender">here<a>.</p>
+<p>Next, you are ready to build blender from source.  This can be a challenge.  I've included some hopefully helpful directions <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/blender">here<a>.</p>
 
 <p>If you haven't already cloned this project to a local folder, you should do that now.  After you do, see the after-cloning instructions here.   Also please take the few seconds it will for you to digest the project conventions page here.  You should be off and running after that. 
 
