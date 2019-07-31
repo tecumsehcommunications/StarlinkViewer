@@ -20,7 +20,7 @@ The /pub/scenes directory is where we put the .gltf scenes we build in blender f
 
 <h3>The /src Directory </h3>
 <p>This is where we will tie the camera we create in our Blender scene to a physical camera running on a smartphone.  This is where we will determine where the smartphone is located on the planet and how it is pointed at the sky.  This is where we will map all that information into the 3D scene we first made in Blender then loaded from our Server into a webGl canvas.  Lastly, this is where we will query satellite orbital data from our Server and animate accurate satellite orbits, using the coordinates of the celestial globe already in the scene.</p>  
- <p>A person using this app accurately will be able to see where Starlink satellites are passing overhead and if they can be reached from his location.  A real Starlink Viewer.  Saddle up nerds.</p>
+ <p>A person using this app accurately will be able to see where Starlink satellites are passing overhead and if they can be reached from his location.  A real Starlink Viewer.  Saddle up, nerds.</p>
 
 <h2>A Word about Three.js</h2>
 
