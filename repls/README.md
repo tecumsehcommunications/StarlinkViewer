@@ -2,7 +2,7 @@
 <p>The ability to interact with a program as you are building it really helps.  That is what motivates the use of repls 
 throughout this project</p>
 
-<p>We have two target languages which are applied to our toolchain in three parts:  Python (via Hy) which backends the Blender environment, and Javascript which is the target language of both the server (nodejs) and client (browser) parts of the chain. </p>
+<p>We have two target languages which are applied to our toolchain in three parts:  Python (via Hy) which backends the Blender/Desktop environment, and Javascript which is the target language of both the Server (nodejs) and Client (browser) parts of the chain. </p>
 
 <h2>The Hy Repl</h2>
 <p>Setting up a Hy repl on the Ubuntu server I've described is fairly painless.  By default, the server should come with both python2.7 and python3.7 installed.  The one thing I have had to watch out for is which Python (2.7 or 3.7) runs when you type "python"
