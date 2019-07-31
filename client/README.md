@@ -8,7 +8,7 @@
 <p>What I usually do, when I am writing code for the Client, is I first start a browser repl, as described <a href="">here</a>.  Then I open either the scratch-paper file found in /dev/scratch.cljs or a source file found in /src into an Emacs buffer and go to work.  Once I am satisfied with how the code works in the repl, I run /dev/build which compiles everything in /src into /pub/js for the browser to load with the page.</p>
 
 <h3>The /pub Directory </h3>
-<p>The /pub directory is for the what gets picked-up by the Server and published to the web. The /img and /svg sub-directories are for files created on those formats.  I like to keep the two formats separate as they are handled very differently by the web browser.  Files in the /img directory tend to find their way through Gimp, which is a great tool for working with bitmap files.  Files in the /svg directory tend to come through Inkscape, which is a great tool for working with SVG (note: save your inkscape files using the "plain" svg option to create web-effecient versions).</p>
+<p>The /pub directory is for what gets picked-up by the Server and published to the web. The /img and /svg sub-directories are for files created on those formats.  I like to keep the two formats separate as they are handled very differently by the web browser.  Files in the /img directory tend to find their way through Gimp, which is a great tool for working with bitmap files.  Files in the /svg directory tend to come through Inkscape, which is a great tool for working with SVG (note: save your inkscape files using the "plain" svg option to create web-effecient versions).</p>
 
 <p>Thanks to the excellent folks working in the Gimp and Inkscape development communities for their great work.</p>  
 
