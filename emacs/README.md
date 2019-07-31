@@ -14,21 +14,15 @@ to the init.el file so Hy lisp buffers also use clojure-mode.
   <pre><code>(define-key clojure-mode-map (kbd "C-w")
       (lambda () (interactive) (repl-eval-last-expression "brepl")))</pre></code>
   
-<p>What that means is if you follow the instructions for configuring Nginx found <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/nginx">here</a>.  Then follow the directions for setting up a browser repl <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls#the-client-browser-repl">here</a>.  Then you can type "C-u M-x: shell"  in Emacs, name the buffer "brepl" and in it cd to the /client directory of your clone of this project.  When you type:</p>
-<pre><code>$ dev/brepl</code></pre>
-<p>and then load a browser on the same machine and point it to http://localhost.  You should see a repl prompt appear in your brepl window.  Now, all you have to do is open a .cljs file in the client/src directory and you can start talking in real time to the client app running in the browser just by placing your cursor at the end of a lisp expression and doing a "C-w" in Emacs.  I hope that is clear.  For using Emacs to run other development repls, see here.  
-  
-  
-  
-  find yourself talking lisp to an application to the application running in the browser.  All you have to do is open or create a .cljs file in Emacs, type a lisp command in the buffer, position the cursor at the end of the command and type "C-w" in Emacs to send it to  expression, and   :and then start a browser-connected repl like the Clojure development tools provide (I provide repl startup scripts here), when you open a .cljs file into another emacs buffer, you can send clojurescript lisp commands from that buffer to a repl running in your browser just by doing a "C-w" keystroke. </p>
-
-<p>This basic ability multiplies in utility as development becomes more complex.  For example, consider the following screenshot.</p>
+<p>What that means is, after you setup your repl environments <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>, and configured Nginx as decribed <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/nginx">here</a> you will be able to talk to our client application running in a web browser just by entering "C-w" at the end of a lisp expression in Emacs. 
+ 
+<p>This basic ability of Emacs to send commands between open windows running seperate repl environments multiplies in utility as development becomes more complex.  For example, consider the following screenshot.</p>
 
 <img src="img/devDesktop.png" style="width:80%"></img>
 
-<p>From window A, we can direct commands into any of three available repl environements (B, C, D) which could simultaneously be running a node.js server and liveReload process, linked to a running browser, or attached to a blender/python dataset.  As you learn to work with more tools on the chain, this flexibility becomes very useful.</p>
-
-<p>So also add the eLips-snippet.el file in this folder to your emacs init.el file and visit the repl folder for recommended repl startup scripts.</p>
+<p>From window A, we can direct commands into any of three available repl environements (B, C, D) which could all be windowed into different parts of the workflows e.g., the Desktop, the Server, and the Client development environments. 
+  
+<h3>So also add the eLips-snippet.el file in this folder to your emacs init.el file and visit the repl setup page <a href=""https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>. To get your repls going.</p>
 
 
 
