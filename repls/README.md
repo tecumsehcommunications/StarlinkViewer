@@ -6,7 +6,7 @@ throughout this project</p>
 
 <h2>The Hy Repl</h2>
 <p>Setting up a Hy repl on the Ubuntu server I've described is fairly painless.  By default, the server should come with both python2.7 and python3.7 installed.  The one thing I have had to watch out for is which Python (2.7 or 3.7) runs when you type "python"
-at the command prompt.  You want it to be python 3, not python 2.  I just put a symbolic link named "python" in my /bin directory and point to the python3 executable at /usr/bin/python3.  That seems to do the trick.</p>
+at the command prompt.  You want it to be python 3, not python 2.  I just put a symbolic link named "python" in my /bin directory and point to the python3 executable at /usr/bin.  That seems to do the trick.</p>
 
 <p>After you know python3 is the default python for you, just type: </p> 
 <pre><code>$ pip3 install --user git+https://github.com/hylang/hy.git </code></pre>
@@ -21,7 +21,7 @@ for this <a href="https://clojure.org/guides/getting_started#_installation_on_li
 <p>Once Clojure is installed, you need to install Nodejs.  That should be fairly painless as well. Just download the binaries you need from <a href="https://nodejs.org/en/download/">here</a>, unzip them into a directory of your choosing, and make sure the /bin subdirectory of that directory is on your $PATH. </p>
 
 <p>With Nodejs and Clojure installed, your next step is to clone this project and then type "C-u M-x shell" in Emacs and name the buffer 
-"nrepl."  From within that buffer, cd to the /server directory of this project and type dev/nrepl at the command prompt.  To test the repl, open the /server/dev/scratch.cljs file in another emacs buffer, place the cursor to the left of any closing paren ")" and type "C-q in Emacs.  The results should show in the nrepl buffer.</p>
+"nrepl."  From within that buffer, cd to the /server directory of this project and type dev/nrepl at the nrepl shell's command prompt.  To test the repl, open the /server/dev/scratch.cljs file in another emacs buffer, place the cursor to the left of any closing paren ")" and type "C-q in Emacs.  The results should show in the nrepl buffer.</p>
 
 <h2>The Client (Browser) Repl</h2>
 
