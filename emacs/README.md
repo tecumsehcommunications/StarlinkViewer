@@ -20,9 +20,9 @@ to the init.el file so Hy lisp buffers also use clojure-mode.
 
 <img src="img/devDesktop.png" style="width:80%"></img>
 
-<p>From window A, we can direct commands into any of three available repl environements (B, C, D) which could all be windowed into different parts of the workflows e.g., the Desktop, the Server, and the Client development environments. 
+<p>From window A, we can direct commands into any of three available repl environements (B, C, D) which could all be windowed into different parts of the workflow e.g., the Desktop, the Server, and the Client development environments. 
   
-<h3>So also add the eLips-snippet.el file in this folder to your emacs init.el file and visit the repl setup page <a href=""https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>. To get your repls going.</p>
+<h3>So also add the eLips-snippet.el file in this folder to your emacs init.el file and visit the repl setup page <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>. To get your repls going.</p>
 
 
 
