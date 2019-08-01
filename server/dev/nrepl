@@ -1,0 +1,1 @@
+clj -m cljs.main -re node -ro "{:launch-browser false :working-dir \".repl\"}" -r

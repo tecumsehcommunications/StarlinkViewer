@@ -1,0 +1,1 @@
+clj -m cljs.main --target node -co "{ :optimizations :simple :source-map false :output-dir \".temp\" :output-to \"pub/server.js\"}" -c server.core
