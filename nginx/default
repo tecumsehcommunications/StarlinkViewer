@@ -4,12 +4,12 @@ server {
   
   listen        80;
   listen        [::]:80;
-  listen	443 ssl;
   server_name   _;
-  ssi on;
   
-  ssl_certificate <<insert path to ssh.crt file>>      ;
-  ssl_certificate_key <<insert path to ssh.key file>>  ;
+  # UNCOMMENT NEXT THREE LINES AS YOU SETUP SSL:  
+  # listen	443 ssl;   
+  # ssl_certificate <<insert path to ssh.crt file>>      ;
+  # ssl_certificate_key <<insert path to ssh.key file>>  ;
 
   #this where socket io will be handling the request
 
