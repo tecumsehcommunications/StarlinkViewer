@@ -3,7 +3,7 @@
 <h2>Nginx</h2>
 <p>The Nginx part will become more important as the project moves into production.  For now, we just use it to 1) serve/stream static content to the browser, and 2) reverse proxy socket traffic to Nodejs.</p>
 
-<p>Installing Nginx</p>
+<h3>Installing Nginx</h3>
 
 <p>1) Just install the Ubuntu distro's nginx.  It is all you need for what we are doing. </p>
 
