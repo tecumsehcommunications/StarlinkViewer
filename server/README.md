@@ -32,6 +32,6 @@
 <p>Look at the core.cljs file in the /server/src/server/ directory of this project to see where we are at with the development.</p>
 
 <h3>Installing Node</h3>
-<p>See the instructions <a href="">here</a> for setting up Nodjs and getting a repl</p>
+<p>See the instructions <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls#the-server-nodejs-repl">here</a> for setting up Nodjs and getting a repl</p>
 
 
