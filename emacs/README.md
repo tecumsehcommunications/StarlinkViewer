@@ -14,7 +14,7 @@ to the init.el file so Hy lisp buffers also use clojure-mode.
   <pre><code>(define-key clojure-mode-map (kbd "C-w")
       (lambda () (interactive) (repl-eval-last-expression "brepl")))</pre></code>
   
-<p>What that means is, after you setup your repl environments <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls">here</a>, and configured Nginx as decribed <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/nginx">here</a> you will be able to talk to our client application running in a web browser just by entering "C-w" at the end of a lisp expression in Emacs. 
+<p>What that means is, after you setup your Client's repl environment as described <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls#the-client-browser-repl">here</a>, and configured the Nginx part of the Server as decribed <a href="https://github.com/tecumsehcommunications/StarlinkViewer/blob/master/server/README.md#installing-nginx">here</a> you will be able to talk to the client application running in a web browser just by entering "C-w" at the end of a lisp expression in Emacs. 
  
 <p>This basic ability of Emacs to send commands between open windows running seperate repl environments multiplies in utility as development becomes more complex.  For example, consider the following screenshot.</p>
 
