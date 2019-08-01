@@ -28,7 +28,7 @@
 
 <p>Next, you are ready to build blender from source.  This can be a challenge.  I've included some hopefully helpful directions <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/blender">here<a>.</p>
 
-<p>Once you have Blender ready, you are ready to get aquainted with any of the three main development areas of the project.  You can view them <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/client">here (client)</a>, <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/server">here (server)</a>, and <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/deesktop">here</a>.   
+<p>Once you have Blender ready, you are ready to get aquainted with any of the three main development areas of the project.  You can view them <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/client">here</a> (client), <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/server">here</a> (server), and <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/deesktop">here</a> (desktop).   
 
 <h1>Chapter 3: Onward </h1>
 
