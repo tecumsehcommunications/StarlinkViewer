@@ -11,7 +11,9 @@ at the command prompt.  You want it to be python 3, not python 2.  I just put a 
 <p>After you know python3 is the default python for you, just type: </p> 
 <pre><code>$ pip3 install --user git+https://github.com/hylang/hy.git </code></pre>
 
-<p>That should be it.  To test it, if you have not already, clone this project into a local folder and open the scratch.hy file found in the /desktop/dev directory into an Emacs buffer. Create a second Emacs window or frame and then type "C-u M-x shell" in Emacs and name the buffer "hrepl." Then type "hy" at that shell's command prompt. Jump back to the buffer you opened for the scratch.hy file and place the cursor just to the right of the closing paren ")" of the (print "Hello World") expression and type "C-e" in Emacs. You hould see the results in the hrepl buffer.  That's it.</p>
+<p>That should be it.  To test it, if you have not already, clone this project into a local folder and open the scratch.hy file found in the /desktop/dev directory into an Emacs buffer. Create a second Emacs window or frame and then type "C-u M-x shell" in Emacs and name the buffer "hrepl." Then type "hy" at that shell's command prompt. Jump back to the buffer you opened for the scratch.hy file and place the cursor just to the right of the closing paren ")" of the (print "Hello World") expression and type "C-e" in Emacs. You hould see the results in the hrepl buffer.</p>
+
+<p>One last note: the pip install command given above should install the hy script to your $HOME/.local/bin directory.  The assumption is that this directory is on the path.  If you did the pip3 install but still can run hy at the command prompt, first verify you $PATH variable is good</p>
 
 <h2>The Server (Nodejs) Repl</h2>
 
