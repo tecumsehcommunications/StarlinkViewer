@@ -13,7 +13,7 @@
 
 <p>4) If you have not already, clone this project to a local folder. Then, determine the full file path to the project's /client/pub directory.  Next, cd to /var/www on your system and delete the /html directory.  Then, from within the /var/www directory type <pre><code>$ ln -s "full path to the client/pub directory" html</code></pre>Now, whatever changes you make to the client side of this app, they will be immediately effective on the Server. </p> 
 
-<p>To see if all's well, open a web browser on the same machine and point it to <a href="http://localhost">http://localhost" </a>.If the Starlink Viewer page loads, you've arrived. </p>  
+<p>To see if all's well, open a web browser on the same machine and point it to <a href="http://localhost">http://localhost" </a>If the Starlink Viewer page loads, you've arrived. </p>  
 
 
 <h2>Node</h2>
