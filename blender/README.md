@@ -4,7 +4,7 @@
 
 <p>Blender has a back door you can enter with the Python programming language.  When you do, you'll discover that all Blender data is organized into Python data structures.  So if you complete the setup described here, you will be able to load a Blender file in a Hy repl and run with it.  Let me give an example of how this is useful:<p/>
   
-<p>To create the celestial coordinate system needed to accurately animate Starlink satellite orbits around the earth, I built the needed 3D geometries in Blender. Then I loaded that Blender scene into a Hy repl where I used Python's csv library to parse a star catalog and then create and plot stars in the Blender scene at their precise coordinates around the celestial globe I first created.  You can view how little code that took here.  The before and after look of the Blender scene was this:</p> 
+<p>To create the celestial coordinate system needed to accurately animate Starlink satellite orbits around the earth, I built the needed 3D geometries in Blender. Then I loaded that Blender scene into a Hy repl where I used Python's csv library to parse a star catalog and then create and plot stars in the Blender scene at their precise coordinates around the celestial globe I first created.  You can view how little code that took <a href="https://github.com/tecumsehcommunications/StarlinkViewer/blob/master/desktop/dev/plotStars">here</a>.  The before and after look of the Blender scene was this:</p> 
 
 <p>Before</p>
 <img src="img/before.png" style="width:80%"></img>
