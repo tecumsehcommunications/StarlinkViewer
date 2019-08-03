@@ -38,7 +38,7 @@
 
 <p> 2) After cmake does its thing.  You do just as the instructions say.  You enter the directory from which you ran your cmake command and type "make" then "make install"</p>
 
-<p>3) Now you should be able to go to the directory where you installed your newly built blender and inside the bin sub-directory you should see a blender executable to run to bring up the blender GUI.
+<p>3) Now you should be able to go to the directory where you installed your newly built blender and inside the bin sub-directory you should see a blender executable to run to bring up the blender GUI.  At this pointer, I usually place a symbolic link to that executable in my $HOME/bin directory</p>
 
 <h3>Building Blender as  Python Module</h3>
   
