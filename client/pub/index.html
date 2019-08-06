@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+
+  <div id="mainContainer">
+    
+    <canvas id="wglCanvas"></canvas>
+    
+ </div>
+
+ <!--loading three.js modules and exposing globally --> 
+  <script type="module">
+    import * as THREE from './js/three.module.js';
+    import { GLTFLoader } from './js/GLTFLoader.js';
+    window.THREE = THREE;
+    window.GLTFLoader = GLTFLoader;
+  </script>
+
+  <script src="js/app.js"></script>
+ 
+  
+</body>
+</html>
+
