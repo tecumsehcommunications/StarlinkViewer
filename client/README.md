@@ -13,7 +13,8 @@
 <h3>The /pub Directory </h3>
 <p>This directory is shared between all three branches of the project (client, server, desktop) as follows:</p>
 <img src="dev/fileStructure.svg"></img>
-<p>Work done in other areas of the project ultimately gets published to this directory where it is picked up by the server and sent to a browser.  </p>
+<p>Work done in other areas of the project ultimately gets published to this directory where it is picked up by the server and sent to a browser.  Browser ready blender scenes are exported from the Desktop to the /scn sub directory.  Image and SVG files usually come in via Inkscape and Gimp, which also can be installed on the Desktop.  Other directories will be added as needed</p>
+
 <p>This client side of the project is the final staging grounds for work done elsewhere.  It also is for developing all the client side code to run in the browser.  </p>
 
 <p>See the <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/server">server</a> and <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/desktop">desktop</a> branches of this project to see how they each publish to this directory.</p>
@@ -23,7 +24,9 @@
 <p>I use Emacs to edit all the HTML, CSS, and SVG files in the /pub directory.  When I am doing this, I also run a LiveReload process on the /pub directory from the Server.  The instructions for doing that are <a href="">here</a>. Then, after installing a LiveReload plugin for your browser like the one found <a href="https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en">here</a>, all you need to do is point your web browser to the http://localhost URL on your machine and activate the plugin. Now, whenever you edit any file in the/pub directory in Emacs, when you "C-x C-s" in its Emacs buffer, that file saves and the web page automatically reloads it. This really speeds development of the HTML scaffolding of the app. </p> 
 
 <h3>The /src Directory </h3>
-<p>This is where we will tie the camera we create in our Blender scene to a physical camera running on a smartphone.  This is where we will determine where the smartphone is located on the planet and how it is pointed at the sky.  This is where we will map all that information into the 3D scene we first made in Blender then loaded from our Server into a webGl canvas.  Lastly, this is where we will query satellite orbital data from our Server and animate accurate satellite orbits, using the coordinates of the celestial globe already in the scene.</p>  
+<p>The challenge is to bring a 3D scene created in Blender, place a camera in that scene corresponding to the actual latitude and longitude coordinates reported by the browser, and then align, position and configure that camera to match the physical camera on the host device.</p>
+<p>The browser must also retrieve satellite orbital data from the server and then construct and animate satellite orbital animations in the 3D scene as they should appear to the camera.  To get a sense of the math involved checkout <a "href=https://www.amsat.org/keplerian-elements-tutorial/">here</a> and <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/client/dev">here</a></p> 
+
  <p>A person using this app accurately will be able to see where Starlink satellites are passing overhead and if they can be reached from his location.  A real Starlink Viewer.  Saddle up, nerds.</p>
 
 <h2>A Word about Three.js</h2>
