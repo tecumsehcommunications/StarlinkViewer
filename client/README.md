@@ -25,7 +25,7 @@
 
 <h3>The /src Directory </h3>
 <p>The challenge is to bring a 3D scene created in Blender, place a camera in that scene corresponding to the actual latitude and longitude coordinates reported by the browser, and then align, position and configure that camera to match the physical camera on the host device.</p>
-<p>The browser must also retrieve satellite orbital data from the server and then construct and animate satellite orbital animations in the 3D scene as they should appear to the camera.  To get a sense of the math involved checkout <a "href=https://www.amsat.org/keplerian-elements-tutorial/">here</a> and <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/client/dev">here</a></p> 
+<p>The browser must also retrieve satellite orbital data from the server and then construct and animate satellite orbital animations in the 3D scene as they should appear to the camera.  To get a sense of the math and programming involved look <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/client/dev">here</a>.</p> 
 
  <p>A person using this app accurately will be able to see where Starlink satellites are passing overhead and if they can be reached from his location.  A real Starlink Viewer.  Saddle up, nerds.</p>
 
