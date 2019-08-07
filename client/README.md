@@ -4,7 +4,6 @@
 
 <h3>The /dev Directory</h3>
 <p>The /dev directory holds things we developers use that don't go into the final publication of the app.  Among other things, it has a "brepl" script to run a browser repl, and a "build" script to compile the contents of the /src directory into the pub/js directory.  Run these scripts from the root directory, e.g. ./dev/build.</p>  
-<div style="background-color:blue; position:absolute; float:left; width:100px; height 100px;">hello</div>
 
 <p>What I usually do, when I am writing code for the Client, is I first start a browser repl, as described <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls#the-client-browser-repl">here</a>.  Then I open either the scratch-paper file found in /dev/scratch.cljs or a source file found in /src into an Emacs buffer and go to work.  Once I am satisfied with how the code works in the repl, I run /dev/build which compiles everything in /src into /pub/js for the browser to load with the page.</p>
 
