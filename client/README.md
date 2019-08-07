@@ -36,7 +36,7 @@ the webpage. So there really is no initial setup to do for Three.js as long as y
 
 <p>Thanks to Mr. Doob and the Three.js development community.</p>  
 
-<h2>An Invitation</h2>
+<h2>Time to Jump</h2>
 
-<p>If you haven't already, why don't you join github and lend a hand.  We could use the help.</p>
+<p>Developing the Client Provides Some Iteresting Challenges.  Learn about them <a href="https://github.com/tecumsehcommunications/StarlinkViewer/blob/master/client/dev/README.md">here</a>.</p>
   
