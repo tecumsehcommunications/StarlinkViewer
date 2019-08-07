@@ -1,3 +1,6 @@
+<html>
+<head></head>
+<body>
 <h1>Welcome to the Business End of the Project</h1>
 <h2>File structures and Workflow</h1>
 <p>We use a three-directory structure for all parts of this project (Client, Server, and Desktop).  You will see that reflected in the directory that contains this README file.  These directories are defined as follows:  
@@ -8,11 +11,12 @@
 <p>What I usually do, when I am writing code for the Client, is I first start a browser repl, as described <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/repls#the-client-browser-repl">here</a>.  Then I open either the scratch-paper file found in /dev/scratch.cljs or a source file found in /src into an Emacs buffer and go to work.  Once I am satisfied with how the code works in the repl, I run /dev/build which compiles everything in /src into /pub/js for the browser to load with the page.</p>
 
 <h3>The /pub Directory </h3>
-<p>The /pub directory is for what gets picked-up by the Server and published to the web. The /img and /svg sub-directories are for files created on those formats.  I like to keep the two formats separate as they are handled very differently by the web browser.  Files in the /img directory tend to find their way through Gimp, which is a great tool for working with bitmap files.  Files in the /svg directory tend to come through Inkscape, which is a great tool for working with SVG (note: save your inkscape files using the "plain" svg option to create web-efficient versions).</p>
+<p>This directory is shared between all three branches of the project (client, server, desktop) as follows:</p>
+<img src="dev/fileStructure.svg"></img>
+<p>Work done in other areas of the project ultimately gets published to this directory where it is picked up by the server and sent to a browser.  </p>
+<p>This client side of the project is the final staging grounds for work done elsewhere.  It also is for developing all the client side code to run in the browser.  </p>
 
-<p>Thanks to the excellent folks working in the Gimp and Inkscape development communities for their great work.</p>  
-
-The /pub/scenes directory is where we put the .gltf scenes we build in blender from within the Desktop side of this project. For more detail on how Blender is integrated at this level look <a href="https://github.com/tecumsehcommunications/StarlinkViewer/blob/master/desktop/README.md">here</a>.</p>
+<p>See the <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/server">server</a> and <a href="https://github.com/tecumsehcommunications/StarlinkViewer/tree/master/desktop">desktop</a> branches of this project to see how they each publish to this directory.</p>
 
 <h4>Using LiveReload</h4>
 
@@ -40,3 +44,5 @@ the webpage. So there really is no initial setup to do for Three.js as long as y
 
 <p>Developing the Client Provides Some Iteresting Challenges.  Learn about them <a href="https://github.com/tecumsehcommunications/StarlinkViewer/blob/master/client/dev/README.md">here</a>.</p>
   
+</body>
+</html>
